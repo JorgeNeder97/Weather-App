@@ -1,0 +1,136 @@
+body {
+    background: linear-gradient(to right, #8A2387, #E94057, #F27121);
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.8em;
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+    color: #fff;
+}
+
+#Redes {
+    font-size: 1.6em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ico {
+    width: 22px;
+}
+
+#MargenError {
+    font-size: 1.5em;
+}
+
+#cabecera {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+    color: #fff;
+    background: radial-gradient(circle, rgba(50, 50, 50, .4), rgba(15, 15, 15, .4));
+    height: 70px;
+    margin-top: -5px;
+    border-radius: 5px;
+    padding-top: 0px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mainDiv {
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    padding: 60px 0px;
+    justify-content: space-around;
+    margin-top: -10px;
+}
+
+.caja1 {
+    background: #333;
+    height: 70vh;
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+}
+
+.caja2 {
+    background: #333;
+    height: 70vh;
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+}
+
+
+.caja3 {
+    background: #333;
+    height: 70vh;
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+}
+
+#tituloTemperatura {
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#temperatura {
+    font-size: 2.3em;
+    margin-bottom: 70px;
+}
+
+#tituloSensacionTermica {
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+#sensacionTermica {
+    font-size: 2.3em;
+}
+
+#tituloTiempo {
+    font-size: 2.5em;
+    margin-top: 18spx;
+    margin-bottom: 100px;
+}
+
+#descripcion {
+    font-size: 2em;
+}
+
+#iconoAnimado {
+    width: 300px;
+    margin-top: -60px;
+    text-align:center;
+}
+
+#tituloViento {
+    font-size: 2.5em;
+    margin-bottom: 100px;
+}
+
+#VelocidadViento {
+    font-size: 2em;
+    margin-bottom: 95px;
+}
+
+#VelocidadVientoNumero {
+    font-size: 2.5em;
+}
